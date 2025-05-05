@@ -1,6 +1,9 @@
 /*Problem Link
   https://leetcode.com/problems/roman-to-integer/description/
 */
+#include <bits/stdc++.h>
+#define ll long long
+using namespace std;
 
 class Solution {
   public:
@@ -30,3 +33,10 @@ class Solution {
   }
 
   };
+int main()
+{
+ string s; cin >> s;
+ Solution obj;
+ cout<<obj.romanToInt(s)<<endl;
+return 0;
+}
