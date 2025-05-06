@@ -1,3 +1,7 @@
+/*Problem Link
+  https://leetcode.com/problems/valid-parentheses/description/
+*/
+
 #include <bits/stdc++.h>
 #define ll long long
 using namespace std;
@@ -25,15 +29,15 @@ class Solution {
  };
 
 
-int main()
-{
-    string s; cin >> s;
-    Solution obj;
-    if(obj.isValid(s)){
-        cout<<"True"<<endl;
-    }else{
-        cout<<"False"<<endl;
-    }
+// int main()
+// {
+//     string s; cin >> s;
+//     Solution obj;
+//     if(obj.isValid(s)){
+//         cout<<"True"<<endl;
+//     }else{
+//         cout<<"False"<<endl;
+//     }
  
-return 0;
-}
+// return 0;
+// }
