@@ -1,7 +1,10 @@
 /*Problem Link
   https://leetcode.com/problems/valid-parentheses/description/
 */
+<<<<<<< HEAD
 
+=======
+>>>>>>> d8bfc05fcaaf378253f8cadb777ea53f868c244f
 #include <bits/stdc++.h>
 #define ll long long
 using namespace std;
@@ -29,6 +32,7 @@ class Solution {
  };
 
 
+<<<<<<< HEAD
 // int main()
 // {
 //     string s; cin >> s;
@@ -41,3 +45,17 @@ class Solution {
  
 // return 0;
 // }
+=======
+/*int main()
+{
+    string s; cin >> s;
+    Solution obj;
+    if(obj.isValid(s)){
+        cout<<"True"<<endl;
+    }else{
+        cout<<"False"<<endl;
+    }
+ 
+return 0;
+}*/
+>>>>>>> d8bfc05fcaaf378253f8cadb777ea53f868c244f
